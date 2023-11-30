@@ -1,0 +1,37 @@
+.card {
+    width: 120px;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.card__header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card__body {
+    margin: 10px 0;
+}
+
+.card__counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__button {
+    background-color: white;
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+}
+
+.numero {
+    margin: auto;
+}
