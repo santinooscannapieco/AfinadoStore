@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
 
-      <ItemListContainer />
+      <ItemListContainer greeting={"Productos"}/>
     </>
   )
 }
