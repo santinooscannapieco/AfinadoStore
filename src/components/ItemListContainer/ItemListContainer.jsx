@@ -1,5 +1,4 @@
-import Tarjetas from '../Tarjetas/Tarjetas'
-
+import ProductCard from '../ProductCard/ProductCard'
 
 const ItemListContainer = ( {greeting} ) => {
 
@@ -9,10 +8,10 @@ const ItemListContainer = ( {greeting} ) => {
             <hr className='my-6 border-black'/>
             
             <div className='flex gap-10'>
-                <Tarjetas titulo={"Guitarra acústica"} texto={"Esta es una guitarra acústica"}/>
-                <Tarjetas titulo={"Cuerda guitarra"} texto={"Encordado Guitarra"}/>
-                <Tarjetas titulo={"Saxofón"} texto={"Esto es un instrumento de viento"}/>
-                <Tarjetas titulo={"Platillos"} texto={"Esto es un instrumento de percusión"}/>
+                <ProductCard titulo={"Guitarra acústica"} texto={"Esta es una guitarra acústica"}/>
+                <ProductCard titulo={"Cuerda guitarra"} texto={"Encordado Guitarra"}/>
+                <ProductCard titulo={"Saxofón"} texto={"Esto es un instrumento de viento"}/>
+                <ProductCard titulo={"Platillos"} texto={"Esto es un instrumento de percusión"}/>
             </div>
         </section>
 
