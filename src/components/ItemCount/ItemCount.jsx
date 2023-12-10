@@ -18,11 +18,11 @@ const ItemCount = () => {
     return (
         <>
             <div className="flex justify-between">
-                <button onClick={decrementar} className="bg-gray-50 border-black w-10 h-10 p-0 hover:bg-gray-500 hover:border-black hover:text-white">-</button>
+                <button onClick={decrementar} className="w-10 h-10 p-0 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">-</button>
                 <p className="m-auto">{counter}</p>
-                <button onClick={incrementar} className="bg-gray-50 border-black w-10 h-10 p-0 hover:bg-gray-500 hover:border-black hover:text-white">+</button>
+                <button onClick={incrementar} className="w-10 h-10 p-0 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">+</button>
             </div>
-            <button className="bg-white border-black h-8 p-0 mt-4 hover:bg-gray-500 hover:border-black hover:text-white" onClick={resetCount}>Agregar al carrito</button>
+            <button className="h-8 p-0 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" onClick={resetCount}>Agregar al carrito</button>
         </>
     )
 }

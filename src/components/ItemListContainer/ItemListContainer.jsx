@@ -1,20 +1,29 @@
-import ProductCard from '../ProductCard/ProductCard'
+import { useState, useEffect  } from 'react'
+import ItemList from '../ItemList/ItemList'
+import { pedirDatos } from '../../utils/utils'
 
-const ItemListContainer = ( {greeting} ) => {
+const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
 
+    useEffect(() => {
+        setLoading( true )
+
+        pedirDatos()
+            .then((data) => {
+                setProductos( data )
+                setLoading( false )
+            })
+    },[])
+    
     return (
-        <section className='container m-auto py-20'>
-            <h2 className="text-4xl font-bold">{greeting}</h2>
-            <hr className='my-6 border-black'/>
-            
-            <div className='flex gap-10'>
-                <ProductCard titulo={"Guitarra acústica"} texto={"Esta es una guitarra acústica"}/>
-                <ProductCard titulo={"Cuerda guitarra"} texto={"Encordado Guitarra"}/>
-                <ProductCard titulo={"Saxofón"} texto={"Esto es un instrumento de viento"}/>
-                <ProductCard titulo={"Platillos"} texto={"Esto es un instrumento de percusión"}/>
-            </div>
-        </section>
-
+        <>
+        {
+            loading
+                ? <h3 className='text-4xl font-bold text-center m-8'>Cargando...</h3>
+                : <ItemList productos={productos}/>
+        }
+        </>
     )
 }
 
