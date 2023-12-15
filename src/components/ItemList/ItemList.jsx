@@ -3,7 +3,7 @@ import ItemCard from '../ItemCard/ItemCard'
 const ItemList = ({ productos }) => {
 
     return (
-        <section className='container m-auto py-20'>
+        <section className='container mx-auto py-20'>
             <div className='flex justify-between'>
                 <h2 className="text-4xl font-bold">Productos</h2>
             </div>

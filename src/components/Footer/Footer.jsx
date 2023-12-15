@@ -3,7 +3,7 @@
 const Footer = () => {
 
     return (
-        <footer className="bg-stone-300">
+        <footer className="mt-auto bg-stone-300 p-4">
             <div className="container m-auto text-center">
                 <p>ESTE ES EL FOOTER</p>
                 <div className="flex justify-between w-8/12 m-auto">

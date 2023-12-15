@@ -2,19 +2,24 @@ import { useState, useEffect } from "react"
 import { pedirDatos } from "../utils/utils"
 
 
-const useProductos = () => {
+const useProductos = (categoryId) => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true) 
 
+    
     useEffect(() => {
         setLoading( true )
 
         pedirDatos()
             .then((data) => {
-                setProductos( data )
-                setLoading( false )
+                const items = categoryId 
+                                ? data.filter(prod => prod.category === categoryId)
+                                : data
+
+                setProductos( items )
             })
-    },[])
+            .finally(() => setLoading( false ))
+    },[categoryId])
 
     return {
         productos,

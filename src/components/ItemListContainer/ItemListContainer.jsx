@@ -2,10 +2,12 @@ import { useState, useEffect  } from 'react'
 import ItemList from '../ItemList/ItemList'
 import useFetch from '../../hooks/useFecth'
 import useProductos from '../../hooks/useProductos'
+import { useParams } from 'react-router-dom'
 
 
 const ItemListContainer = () => {
-    const { productos, loading } = useProductos()
+    const { categoryId } = useParams()
+    const { productos, loading } = useProductos(categoryId)
     /* const { data } = useFetch('https://pokeapi.co/api/v2/pokemon/25') */
 
     

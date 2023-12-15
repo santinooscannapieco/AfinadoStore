@@ -3,7 +3,7 @@
 export const MOCK_DATA = [
     {
         id: 1,
-        category: "Cuerda",
+        category: "cuerda",
         tittle: "Guitarra acústica",
         description: "Esta es una guitarra acústica",
         stock: 5,
@@ -11,7 +11,7 @@ export const MOCK_DATA = [
     },
     {
         id: 2,
-        category: "Viento",
+        category: "viento",
         tittle: "Saxofón",
         description: "Descripcion",
         stock: 3,
@@ -19,7 +19,7 @@ export const MOCK_DATA = [
     },
     {
         id: 3,
-        category: "Cuerda",
+        category: "cuerda",
         tittle: "Encordado Guitarra",
         description: "Esto es una descripcion",
         stock: 10,
@@ -27,7 +27,7 @@ export const MOCK_DATA = [
     },
     {
         id: 4,
-        category: "Percusión",
+        category: "percusion",
         tittle: "Platillos",
         description: "Esto es un instrumento de percusión",
         stock: 7,
@@ -35,7 +35,7 @@ export const MOCK_DATA = [
     },
     {
         id: 5,
-        category: "Teclados",
+        category: "teclados",
         tittle: "Piano",
         description: "Esto es un piano",
         stock: 1,
@@ -43,7 +43,7 @@ export const MOCK_DATA = [
     },
     {
         id: 6,
-        category: "Grabacion",
+        category: "grabacion",
         tittle: "Microfono",
         description: "Esto es una descripcion",
         stock: 4,
@@ -51,7 +51,7 @@ export const MOCK_DATA = [
     },
     {
         id: 7,
-        category: "Accesorios",
+        category: "accesorios",
         tittle: "Estuche para guitarra",
         description: "Esto es una descripcion",
         stock: 5,
