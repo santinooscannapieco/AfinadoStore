@@ -1,6 +1,6 @@
 import ItemCard from '../ItemCard/ItemCard'
 
-const ItemList = ({productos}) => {
+const ItemList = ({ productos }) => {
 
     return (
         <section className='container m-auto py-20'>
@@ -8,9 +8,12 @@ const ItemList = ({productos}) => {
                 <h2 className="text-4xl font-bold">Productos</h2>
             </div>
             <hr className='my-6 border-black'/>
-            <div className='flex'>
+            <div className='flex justify-between'>
                 <div className='flex gap-10 flex-wrap justify-start'>
-                    { productos.map( (item) => <ItemCard key={item.id} name={item.name} description={item.description} /> ) }
+                    {/* <ItemCard name={data.name} img={data.sprites.front_default} /> */}
+
+
+                    { productos.map( (item) => <ItemCard key={item.id} title={item.title} description={item.description} img={item.img} /> ) }
                 </div>
                 <div className=''>
                     filtros de mi página que filtran los productos

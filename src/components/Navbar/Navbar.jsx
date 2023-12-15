@@ -14,7 +14,8 @@ const Navbar = () => {
                     <a href="#" className="hover:text-stone-500 font-semibold">CUERDA</a>
                     <a href="#" className="hover:text-stone-500 font-semibold">VIENTO</a>
                     <a href="#" className="hover:text-stone-500 font-semibold">PERCUSIÓN</a>
-                    <a href="#" className="hover:text-stone-500 font-semibold">ELÉCTRICOS</a>
+                    <a href="#" className="hover:text-stone-500 font-semibold">TECLADOS</a>
+                    <a href="#" className="hover:text-stone-500 font-semibold">GRABACIÓN</a>
                     <a href="#" className="hover:text-stone-500 font-semibold">ACCESORIOS</a>
                 </nav>
 

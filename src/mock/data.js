@@ -1,42 +1,60 @@
+// ARMO FORMATO DE MI API DE PRODUCTOS
+
 export const MOCK_DATA = [
     {
         id: 1,
-        name: "Guitarra acústica",
-        description: "Esta es una guitarra acústica"
+        category: "Cuerda",
+        tittle: "Guitarra acústica",
+        description: "Esta es una guitarra acústica",
+        stock: 5,
+        img: ""
     },
     {
         id: 2,
-        name: "Cuerda guitarra",
-        description: "Encordado Guitarra"
+        category: "Viento",
+        tittle: "Saxofón",
+        description: "Descripcion",
+        stock: 3,
+        img: ""
     },
     {
         id: 3,
-        name: "Saxofón",
-        description: "Esto es un instrumento de viento"
+        category: "Cuerda",
+        tittle: "Encordado Guitarra",
+        description: "Esto es una descripcion",
+        stock: 10,
+        img: ""
     },
     {
         id: 4,
-        name: "Platillos",
-        description: "Esto es un instrumento de percusión"
+        category: "Percusión",
+        tittle: "Platillos",
+        description: "Esto es un instrumento de percusión",
+        stock: 7,
+        img: ""
     },
     {
-        id: 1,
-        name: "Guitarra acústica",
-        description: "Esta es una guitarra acústica"
+        id: 5,
+        category: "Teclados",
+        tittle: "Piano",
+        description: "Esto es un piano",
+        stock: 1,
+        img: ""
     },
     {
-        id: 2,
-        name: "Cuerda guitarra",
-        description: "Encordado Guitarra"
+        id: 6,
+        category: "Grabacion",
+        tittle: "Microfono",
+        description: "Esto es una descripcion",
+        stock: 4,
+        img: ""
     },
     {
-        id: 3,
-        name: "Saxofón",
-        description: "Esto es un instrumento de viento"
-    },
-    {
-        id: 4,
-        name: "Platillos",
-        description: "Esto es un instrumento de percusión"
+        id: 7,
+        category: "Accesorios",
+        tittle: "Estuche para guitarra",
+        description: "Esto es una descripcion",
+        stock: 5,
+        img: ""
     },
 ]
