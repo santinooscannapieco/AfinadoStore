@@ -13,7 +13,7 @@ const ItemList = ({ productos }) => {
                     {/* <ItemCard name={data.name} img={data.sprites.front_default} /> */}
 
 
-                    { productos.map( (item) => <ItemCard key={item.id} title={item.title} description={item.description} img={item.img} /> ) }
+                    { productos.map( (item) => <ItemCard key={item.id} item={item} /> ) }
                 </div>
                 <div className=''>
                     filtros de mi página que filtran los productos
