@@ -15,15 +15,16 @@ const ItemCount = () => {
         setCounter(0)
     }
 
+    /* FALTA CORREGIR EL CSS */
     return (
-        <>
-            <div className="flex justify-between">
+        <section className="container mt-8 relative inset-x-0 bottom-0">
+            <div className="flex justify-between w-52">
                 <button onClick={decrementar} className="w-10 h-10 p-0 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">-</button>
                 <p className="m-auto">{counter}</p>
                 <button onClick={incrementar} className="w-10 h-10 p-0 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">+</button>
             </div>
-            <button className="h-8 w-auto p-0 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" onClick={resetCount}>Agregar al carrito</button>
-        </>
+            <button className="mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" onClick={resetCount}>Agregar al carrito</button>
+        </section>
     )
 }
 
