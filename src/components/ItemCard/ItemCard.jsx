@@ -15,9 +15,11 @@ const ItemCard = ( {item} ) => {
                 <p className="text-xl text-stone-900">{item.title}</p>
             </div>
             <p className="text-xl text-center font-bold mb-2">$ {item.price}</p>
-            <button className="text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">
-                <Link to={`/item/${item.id}`}>Ver más</Link>
-            </button>
+            <Link to={`/item/${item.id}`}>
+                <button className="text-gray-50 bg-stone-700 hover:bg-stone-500 border-none w-72">
+                    Ver más
+                </button>
+            </Link>
         </div>
     )
 }
