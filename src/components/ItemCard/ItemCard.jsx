@@ -14,7 +14,7 @@ const ItemCard = ( {item} ) => {
             <div className="text-center mt-2 font-semibold">
                 <p className="text-xl text-stone-900">{item.title}</p>
             </div>
-            <p className="text-xl text-center font-bold mb-2">$ {item.price}</p>
+            <p className="text-xl text-center font-bold mb-2 text-stone-900">$ {item.price}</p>
             <Link to={`/item/${item.id}`}>
                 <button className="text-gray-50 bg-stone-700 hover:bg-stone-500 border-none w-72">
                     Ver más

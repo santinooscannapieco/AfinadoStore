@@ -3,6 +3,7 @@ import ItemList from '../ItemList/ItemList'
 import useFetch from '../../hooks/useFecth'
 import useProductos from '../../hooks/useProductos'
 import { useParams } from 'react-router-dom'
+import Loader from '../Loader/Loader'
 
 
 const ItemListContainer = () => {
@@ -19,7 +20,7 @@ const ItemListContainer = () => {
         
         {
             loading
-                ? <h3 className='text-4xl font-bold text-center m-8'>Cargando...</h3>
+                ? <Loader />
                 : <ItemList 
                     productos={productos}
                     categoryId={categoryId}

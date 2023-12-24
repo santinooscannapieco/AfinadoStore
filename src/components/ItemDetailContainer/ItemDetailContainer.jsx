@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { pedirDatos } from "../../utils/utils"
 import ItemDetail from "../ItemDetail/ItemDetail"
+import Loader from "../Loader/Loader"
 
 
 const ItemDetailContainer = () => {
@@ -24,7 +25,7 @@ const ItemDetailContainer = () => {
         <>
             {
                 loading
-                    ? <h3 className='text-4xl font-bold text-center m-8'>Cargando...</h3>
+                    ? <Loader />
                     : <ItemDetail item={item} />
             }
         </>
