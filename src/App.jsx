@@ -1,10 +1,10 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import Cart from './components/Cart/Cart'
 import Footer from './components/Footer/Footer'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import ItemDetailsContainer from './components/ItemDetailsContainer/ItemDetailsContainer'
-import Cart from './components/Cart/Cart'
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element={ <ItemListContainer /> } />
           <Route path='/productos/:categoryId' element={ <ItemListContainer /> } />
-          <Route path='/item/:itemId' element={ <ItemDetailsContainer /> } />
+          <Route path='/item/:itemId' element={ <ItemDetailContainer /> } />
           <Route path='/cartWidget' element={ <Cart />} />
 
           <Route path='/not-found' element={ <h2 className='text-center mt-16 text-2xl'>NOT FOUND</h2> } />

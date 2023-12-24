@@ -1,8 +1,8 @@
 import CartWidget from "../CartWidget/CartWidget"
 import logo from '../../assets/afinado-store.svg'
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
-const links = [
+export const links = [
     {
         id: 1,
         label: "Cuerda",
@@ -45,12 +45,20 @@ const Navbar = () => {
                     <img src={logo} alt="logo" className="h-11" />
                 </Link>
                 
-                <nav className="flex gap-5 text-stone-700">
+                <nav className="flex gap-5 text-stone-700 text-xl">
                     {
                         links.map((link) => (
-                            <Link key={ link.id } to={ link.href } className="hover:text-stone-500 font-semibold uppercase">
-                                { link.label }
-                            </Link>
+                            <NavLink
+                                key={ link.id } 
+                                to={ link.href }
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "text-stone-500 font-bold"
+                                        : "hover:text-stone-500 font-semibold"
+                                }
+                            >
+                                {link.label}
+                            </NavLink>
                         ))
                     }
                 </nav>

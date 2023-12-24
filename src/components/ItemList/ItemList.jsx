@@ -1,11 +1,17 @@
 import ItemCard from '../ItemCard/ItemCard'
 
-const ItemList = ({ productos }) => {
+const ItemList = ({ productos, categoryId }) => {
 
     return (
         <section className='container mx-auto py-20'>
             <div className='flex justify-between'>
-                <h2 className="text-4xl font-bold">Productos</h2>
+                <h2 className="text-4xl font-bold uppercase">
+                    {
+                        categoryId
+                            ? categoryId
+                            : "Productos"
+                    }
+                </h2>
             </div>
             <hr className='my-6 border-black'/>
             <div className='flex justify-between'>
@@ -15,9 +21,10 @@ const ItemList = ({ productos }) => {
 
                     { productos.map( (item) => <ItemCard key={item.id} item={item} /> ) }
                 </div>
-                <div className=''>
+                
+                {/* <div className=''>
                     filtros de mi página que filtran los productos
-                </div>
+                </div> */}
             </div>
         </section>
     )

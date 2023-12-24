@@ -20,7 +20,10 @@ const ItemListContainer = () => {
         {
             loading
                 ? <h3 className='text-4xl font-bold text-center m-8'>Cargando...</h3>
-                : <ItemList productos={productos}/>
+                : <ItemList 
+                    productos={productos}
+                    categoryId={categoryId}
+                  />
         }
         </>
     )

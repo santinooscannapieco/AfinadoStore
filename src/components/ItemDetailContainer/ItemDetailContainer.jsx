@@ -4,7 +4,7 @@ import { pedirDatos } from "../../utils/utils"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
 
-const ItemDetailsContainer = () => {
+const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true)
     const [item, setItem] = useState(null)
 
@@ -31,4 +31,4 @@ const ItemDetailsContainer = () => {
     )
 }
 
-export default ItemDetailsContainer
+export default ItemDetailContainer
