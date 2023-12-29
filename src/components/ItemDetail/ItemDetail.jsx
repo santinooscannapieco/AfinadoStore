@@ -1,9 +1,15 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
 import ItemCount from "../ItemCount/ItemCount"
+import { CartContext } from "../../context/CartContext"
+import { Link } from "react-router-dom"
+
 
 
 const ItemDetail = ( {item} ) => {
-    const [cantidad, setCantidad] = useState(0)
+    const [cantidad, setCantidad] = useState(1)
+    const { addToCart, isInCart } = useContext(CartContext)
+
+    console.log( isInCart( item.id ))
 
     const resetCount = () => {
         const itemToCart = {
@@ -11,6 +17,8 @@ const ItemDetail = ( {item} ) => {
             cantidad
         }
         console.log(itemToCart)
+
+        addToCart( itemToCart )
         /* setCantidad(0) */
     }
 
@@ -27,15 +35,23 @@ const ItemDetail = ( {item} ) => {
                     <p className="text-stone-700">{item.description}</p>
                     <p className="text-2xl font-bold my-8 text-stone-900">$ {item.price}</p>
 
-                    <ItemCount 
-                        cantidad={ cantidad }
-                        stock={ item.stock }
-                        setCantidad={ setCantidad }
-                    />
+                    {
+                        isInCart(item.id)
+                          ? <Link to={"/cart"}>
+                                <button className="w-52 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">Terminar mi compra</button>
+                            </Link>
+                          : <>
+                                <ItemCount 
+                                  cantidad={ cantidad }
+                                  stock={ item.stock }
+                                  setCantidad={ setCantidad }
+                                />
 
-                    <button className="w-52 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" onClick={resetCount}>
-                        Agregar al carrito
-                    </button>
+                                <button className="w-52 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" onClick={resetCount}>
+                                    Agregar al carrito
+                                </button>
+                            </>
+                    }                    
                 </div>
             </div>
         </div>

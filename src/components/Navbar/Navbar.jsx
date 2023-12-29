@@ -1,4 +1,4 @@
-import CartWidget from "../CartWidget/CartWidget"
+import CartWidget from "./CartWidget"
 import logo from '../../assets/afinado-store.svg'
 import { Link, NavLink } from "react-router-dom"
 
@@ -40,7 +40,7 @@ const Navbar = () => {
     
     return (
         <header className="bg-stone-300">
-            <div className="container m-auto py-5 flex column justify-between items-center">
+            <div className="container m-auto py-5 flex justify-between items-center">
                 <Link to={"/"}>
                     <img src={logo} alt="logo" className="h-11" />
                 </Link>

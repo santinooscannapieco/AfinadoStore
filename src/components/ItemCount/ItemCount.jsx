@@ -8,7 +8,7 @@ const ItemCount = ( {cantidad, stock, setCantidad} ) => {
     }
 
     const decrementar = () => {
-        cantidad > 0 && setCantidad( cantidad - 1 )
+        cantidad > 1 && setCantidad( cantidad - 1 )
     }    
 
     /* FALTA CORREGIR EL CSS */
