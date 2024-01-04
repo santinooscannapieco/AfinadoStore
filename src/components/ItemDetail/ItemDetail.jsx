@@ -23,7 +23,7 @@ const ItemDetail = ( {item} ) => {
     }
 
     return(
-        <div className="container m-auto mt-8">
+        <div className="container mx-auto py-20">
             <h3 className="text-4xl font-semibold text-stone-900">{item.title}</h3>
             <hr className='my-6 border-black' />
             <div className="flex gap-28 mt-8 justify-center">
