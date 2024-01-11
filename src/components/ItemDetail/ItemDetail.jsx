@@ -9,14 +9,13 @@ const ItemDetail = ( {item} ) => {
     const [cantidad, setCantidad] = useState(1)
     const { addToCart, isInCart } = useContext(CartContext)
 
-    console.log( isInCart( item.id ))
+    /* console.log( isInCart( item.id )) */
 
     const resetCount = () => {
         const itemToCart = {
             ...item,
             cantidad
         }
-        console.log(itemToCart)
 
         addToCart( itemToCart )
         /* setCantidad(0) */
@@ -24,7 +23,7 @@ const ItemDetail = ( {item} ) => {
 
     return(
         <div className="container mx-auto py-20">
-            <h3 className="text-4xl font-semibold text-stone-900">{item.title}</h3>
+            <h3 className="text-4xl font-semibold text-stone-900">{item.name}</h3>
             <hr className='my-6 border-black' />
             <div className="flex gap-28 mt-8 justify-center">
                 <div className="w-72 h-72 bg-slate-300">

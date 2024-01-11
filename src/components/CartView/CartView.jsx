@@ -19,7 +19,7 @@ const CartView = () => {
                         <li key={item.id} className="flex gap-3 my-4">
                             <img src={item.img} alt="Cart img" className="w-32" />
                             <div>
-                                <h3 className="text-2xl">{item.title}</h3>
+                                <h3 className="text-2xl">{item.name}</h3>
                                 <p className="text-2xl font-bold">$ {item.price * item.cantidad}</p>
                                 <p className="text-xl">Cantidad: {item.cantidad}</p>
                             </div>

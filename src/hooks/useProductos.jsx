@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
-import { pedirDatos } from "../utils/utils"
-
+import { collection, getDocs, query, where } from "firebase/firestore"
+import { db } from "../firebase/config"
 
 const useProductos = (categoryId) => {
     const [productos, setProductos] = useState([])
@@ -10,16 +10,26 @@ const useProductos = (categoryId) => {
     useEffect(() => {
         setLoading( true )
 
-        pedirDatos()
-            .then((data) => {
-                const items = categoryId 
-                                ? data.filter(prod => prod.category === categoryId)
-                                : data
+        // 1.- Armar una referencia (sync)
+        const productosRef = collection(db, 'productos')
+        const docs = categoryId
+                        ? query( productosRef, where('category', '==', categoryId) )
+                        : productosRef
 
-                setProductos( items )
+        // 2.- Llamar a esa referencia (async)
+        getDocs( docs )
+          .then((querySnapshot) => {
+            const docs = querySnapshot.docs.map(doc => {
+                return {
+                    ...doc.data(),
+                    id: doc.id
+                }
             })
-            .finally(() => setLoading( false ))
-    },[categoryId])
+            setProductos( docs )
+          })
+          .finally(() => setLoading(false))
+
+        },[categoryId])
 
     return {
         productos,

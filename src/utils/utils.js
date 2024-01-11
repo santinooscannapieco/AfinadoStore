@@ -1,4 +1,4 @@
-import MOCK_DATA from "../mock/data.json"
+/* import MOCK_DATA from "../mock/data.json"
 
 export const pedirDatos = () => {
     return new Promise((resolve, reject) => {
@@ -6,4 +6,4 @@ export const pedirDatos = () => {
             resolve(MOCK_DATA)
         }, 500)
     })
-}
+} */
