@@ -10,8 +10,8 @@ const ItemCard = ( {item} ) => {
     return (
         <div className="container flex justify-between flex-col w-72">
             <div className="text-start text-base">
-                <div className="w-72 h-72 bg-slate-300">
-                    <img className="m-auto h-72" src={item.img} alt="imagen" />
+                <div className="w-72 h-72 flex items-center">
+                    <img className="m-auto max-h-72" src={item.img} alt="imagen" />
                 </div>
                 {/* <img src={item.img} alt="imagen" className="m-auto" /> */}
                 {/* <p className="text-stone-700">{item.description}</p> */}

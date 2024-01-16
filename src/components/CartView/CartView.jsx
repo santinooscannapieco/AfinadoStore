@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import EmptyCart from "./EmptyCart"
+import { Link } from "react-router-dom"
 
 
 const CartView = () => {
@@ -31,6 +32,14 @@ const CartView = () => {
             <h4 className="text-4xl font-semibold">TOTAL: $ {totalCart()}</h4>
 
             <button onClick={clearCart} className="w-52 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">Vaciar carrito</button>
+            
+            <br />
+
+            <Link to={"/checkout"}>
+                <button className="w-52 mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">
+                    Terminar mi compra
+                </button>
+            </Link>
         </section>
     )
     

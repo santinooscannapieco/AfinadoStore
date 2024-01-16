@@ -1,271 +1,271 @@
 [{
     "id": 1,
-    "category": "accesorios",
-    "name": "Coffee Cup 16oz Foam",
+    "category": "cuerda",
+    "name": "Guitarra eléctrica Custom Stratocaster de caoba 2019 negra laca",
     "stock": 82,
-    "price": 81,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+    "price": 184,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_723793-MLA48680228384_122021-O.webp",
+    "description": "Disfrutá con esta guitarra de la conexión con la música. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Explorá, amplificá tu creatividad y desarrollá tu pasión."
   }, {
     "id": 2,
-    "category": "percusion",
-    "name": "Oysters - Smoked",
+    "category": "cuerda",
+    "name": "Violin Acústico Segovia Estudio Antique 3/4 Tilo Arco Color Marrón Claro",
     "stock": 27,
-    "price": 332,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+    "price": 82,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_974419-MLU70846342071_082023-F.webp",
+    "description": "El Violín Acústico Segovia Estudio Antique 3/4 Tilo Arco es una joya musical que combina la tradición de la luthería con la calidad y la precisión moderna. Su color marrón claro le otorga una estética clásica y elegante, ideal para cualquier amante de la música que busque un instrumento con personalidad y estilo."
   }, {
     "id": 3,
-    "category": "teclados",
-    "name": "Wine - White, Cooking",
+    "category": "cuerda",
+    "name": "Guitarra Electroacustica Star Negro Parquer Material Del Diapasón Arce",
     "stock": 6,
-    "price": 364,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+    "price": 96,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_904627-MLU72829556119_112023-F.webp",
+    "description": "Disfrutá con esta guitarra de la conexión con la música. Está diseñada para aficionados y profesionales. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical."
   }, {
     "id": 4,
-    "category": "accesorios",
-    "name": "Juice - Pineapple, 341 Ml",
+    "category": "cuerda",
+    "name": "Arco Violín 4/4 Segovia Frances Punta Ebano",
     "stock": 22,
-    "price": 167,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+    "price": 18,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_813598-MLU73724692897_122023-F.webp",
+    "description": "Arco Violín 4/4 Segovia Frances Punta Ebano' es un producto de alta calidad diseñado para músicos profesionales y entusiastas. Este arco de violín de tamaño completo está hecho con materiales de primera calidad para garantizar una excelente respuesta y durabilidad."
   }, {
     "id": 5,
     "category": "viento",
-    "name": "Snails - Large Canned",
+    "name": "Saxo Soprano Master Con Estuche Boquilla Y Correa",
     "stock": 96,
-    "price": 63,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+    "price": 719,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_846951-MLU73096604068_112023-F.webp",
+    "description": "Saxo Soprano Parquer Master con estuche, boquilla y correa. Este saxofón soprano de la marca Parquer Master es un instrumento de alta calidad, ideal para músicos de todos los niveles. Viene con un estuche para su transporte y protección, una boquilla y una correa para facilitar su uso. Este saxofón soprano es conocido por su sonido suave y melódico, y es un instrumento esencial para cualquier banda de jazz o conjunto de música clásica. El estuche incluido es resistente y duradero, diseñado para proteger el instrumento durante el transporte. La boquilla y la correa incluidas son accesorios esenciales para tocar el saxofón soprano. Con este instrumento, podrás explorar una amplia gama de estilos musicales y técnicas de interpretación."
   }, {
     "id": 6,
-    "category": "teclados",
-    "name": "Wanton Wrap",
+    "category": "viento",
+    "name": "Flauta Dulce Escolar Soprano Alemana Color Azul",
     "stock": 85,
-    "price": 61,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus."
+    "price": 6,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_862112-MLU71291037639_082023-F.webp",
+    "description": "La Flauta Dulce Escolar Soprano Alemana Color Azul es el instrumento perfecto para aquellos que desean iniciarse en el mundo de la música. Con su digitación alemana y su diseño en color azul, esta flauta dulce es ideal para principiantes de todas las edades."
   }, {
     "id": 7,
-    "category": "teclados",
-    "name": "Pie Box - Cello Window 2.5",
+    "category": "viento",
+    "name": "Armónica Blusera Pro Do C Plateada 10 Celdas",
     "stock": 32,
-    "price": 374,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
+    "price": 8,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_855129-MLU70777948624_082023-F.webp",
+    "description": "Con esta armónica de Parquer disfrutarás de componer y rememorar las canciones que más te gustan. Es el instrumento más elegido para iniciarse dentro de la música por su fácil adaptación y utilización para quien la use."
   }, {
     "id": 8,
-    "category": "teclados",
-    "name": "Coffee - Hazelnut Cream",
+    "category": "viento",
+    "name": "Flauta Traversa Custom En Do Abierta Mi Partido Color Plateado",
     "stock": 34,
-    "price": 315,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+    "price": 301,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_880311-MLU72814277651_112023-F.webp",
+    "description": "La Flauta Traversa Parquer Custom es un instrumento musical de alta calidad. Está diseñada en Do Abierta Mi Partido, lo que le brinda un sonido único y distintivo. Su color plateado le otorga una apariencia elegante y sofisticada. Este instrumento es ideal tanto para principiantes como para músicos experimentados, ya que su diseño permite una fácil manipulación y un sonido excepcional. La Flauta Traversa Parquer Custom es un instrumento que te permitirá explorar y perfeccionar tus habilidades musicales."
   }, {
     "id": 9,
     "category": "viento",
-    "name": "Beef Flat Iron Steak",
+    "name": "Trompeta Custom Si Bemol Metal Color Negro Estuche",
     "stock": 67,
-    "price": 356,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+    "price": 273,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_800442-MLU71966602902_092023-F.webp",
+    "description": "Trompeta Parquer Custom en Si Bemol (Bb) de Metal Color Negro con Estuche. Esta trompeta de Parquer es ideal para estudiantes iniciales o también intermedios. Es muy utilizada para orquestas, bandas, o escuelas. Es liviana y muy práctica. Tiene un excelente brillo sonoro y gran calidad y comodidad en los pistones."
   }, {
     "id": 10,
-    "category": "teclados",
-    "name": "Corn Syrup",
+    "category": "viento",
+    "name": "Acordeon 8 Bajos 22 Teclas Negro Correa Funda",
     "stock": 63,
-    "price": 178,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+    "price": 442,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_733267-MLA72094791631_102023-F.webp",
+    "description": ""
   }, {
     "id": 11,
     "category": "viento",
-    "name": "Ham - Cooked Bayonne Tinned",
+    "name": "Corno Frances Doble Alexander Campana Desmontable",
     "stock": 65,
-    "price": 104,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+    "price": 2600,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_821986-MLA32317042978_092019-F.webp",
+    "description": ""
   }, {
     "id": 12,
-    "category": "accesorios",
-    "name": "Chicken - Wings, Tip Off",
+    "category": "viento",
+    "name": "Acordeon 72 Bajos 34 Llaves Sj2001 Negro",
     "stock": 47,
-    "price": 397,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "price": 2482,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_629527-MLA72018148845_092023-F.webp",
+    "description": ""
   }, {
     "id": 13,
-    "category": "percusion",
-    "name": "Wine - Shiraz South Eastern",
+    "category": "grabacion",
+    "name": "Interfaz Usb Audio Hugel 4 Canales Stereo Color Negro",
     "stock": 18,
-    "price": 337,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum."
+    "price": 124,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_755508-MLU73459344068_122023-F.webp",
+    "description": "Es un diseño estéreo (1 y 3 canales son izquierdos, 2 y 4 canales son derechos) Para escuchar ambos lados, debe presionar el botón MON para ingresar al modo estéreo."
   }, {
     "id": 14,
-    "category": "accesorios",
-    "name": "Beef - Ox Tail, Frozen",
+    "category": "grabacion",
+    "name": "Panel Acustico Hugel Ignifugo 50x50x5cm C/adhesivo",
     "stock": 80,
-    "price": 399,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus."
+    "price": 7,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_993957-MLA70435796062_072023-F.webp",
+    "description": ""
   }, {
     "id": 15,
-    "category": "viento",
-    "name": "Cookie Chocolate Chip With",
+    "category": "grabacion",
+    "name": "Consola Parquer KT-160F de mezcla",
     "stock": 45,
-    "price": 63,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+    "price": 346,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_668538-MLA44332281911_122020-F.webp",
+    "description": "Con esta consola de mezcla, vas a poder jugar, inventar y crear los sonidos más increíbles. \n   La alimentación fantasma, o alimentación phantom, proporciona corriente continua a los dispositivos que lo necesitan, por ejemplo un micrófono. Este tipo de alimentación hace que estos dispositivos se estandaricen y que sea más cómodo y práctico el proceso de instalación, ya que no requiere muchas fuentes de alimentación separadas."
   }, {
     "id": 16,
-    "category": "grabacion",
-    "name": "Sprouts - Baby Pea Tendrils",
+    "category": "teclados",
+    "name": "Piano Eléctrico P9 88 Teclas Martillo Con Mueble",
     "stock": 39,
-    "price": 71,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    "price": 700,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_743948-MLU69710419438_052023-F.webp",
+    "description": ""
   }, {
     "id": 17,
-    "category": "viento",
-    "name": "Orange - Blood",
+    "category": "teclados",
+    "name": "Teclado K186bk 61 Teclas Sent 5/8 Pitch +fuente",
     "stock": 74,
-    "price": 155,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat."
+    "price": 166,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_768731-MLU72847784197_112023-F.webp",
+    "description": "Con sus 61 teclas, podrás tocar una amplia variedad de obras y sumergirte en el mundo del intérprete musical. Ideal para niveles intermedios que quieren superarse y seguir el camino de los grandes músicos."
   }, {
     "id": 18,
     "category": "percusion",
-    "name": "Wine - Riesling Alsace Ac 2001",
+    "name": "Bateria Electronica Octapad Parquer Usb Midi Kit Completo Color Negro",
     "stock": 97,
-    "price": 171,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+    "price": 205,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_901894-MLU73267045117_122023-F.webp",
+    "description": "Características: \n- Cuerpos de Silicio \n- Tambor de ABS. \n- INCLUYE: 7 Pads, dos pedales, 2 palillos, un cable de audio (miniplug-miniplug), un cable de datos USB y una fuente adaptador 220v \n- Contiene 2 parlantes para reproducir de forma autónoma"
   }, {
     "id": 19,
-    "category": "grabacion",
-    "name": "Bagelers",
+    "category": "percusion",
+    "name": "Pandereta Madera 16 Sonajas 10 Pulgadas 25cm Color Marrón claro",
     "stock": 67,
-    "price": 382,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+    "price": 12,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_794600-MLU71889209053_092023-F.webp",
+    "description": "Este instrumento musical es ideal para aquellos que buscan un sonido auténtico y de calidad. Con 16 sonajas, esta pandereta de 10 pulgadas (25cm) ofrece un sonido vibrante y resonante. Su construcción de madera le da un toque rústico y tradicional, mientras que su color marrón claro se adapta a cualquier estilo."
   }, {
     "id": 20,
     "category": "percusion",
-    "name": "Straws - Cocktale",
+    "name": "Bateria Electronica Soundking Skd360 Sensitiva 8 Cuerpos",
     "stock": 40,
-    "price": 145,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+    "price": 817,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_888676-MLU72400616620_102023-F.webp",
+    "description": ""
   }, {
     "id": 21,
-    "category": "teclados",
-    "name": "Soup - Clam Chowder, Dry Mix",
+    "category": "percusion",
+    "name": "Guiro Raspador Parquer De Metal Grande 5x12 Con Peine Color Gris",
     "stock": 96,
-    "price": 208,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "price": 36,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_879345-MLU72067448665_102023-F.webp",
+    "description": "Este instrumento musical es ideal para aquellos que buscan un sonido único y distintivo. Su diseño de metal grande de 5x12 y su peine de color gris lo hacen atractivo y funcional."
   }, {
     "id": 22,
-    "category": "cuerda",
-    "name": "Soup - Campbells Tomato Ravioli",
+    "category": "percusion",
+    "name": "Redoblante Tambor Parquer Madera Abeto Birch 14 X 6,5",
     "stock": 60,
-    "price": 340,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+    "price": 176,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_692911-MLU73183475332_122023-F.webp",
+    "description": "Redoblante Tambor Parquer Madera Abeto Birch 14 X 6,5' es un instrumento musical de percusión de alta calidad. Fabricado con madera de abeto y birch, este redoblante ofrece un sonido nítido y potente, ideal para cualquier tipo de música."
   }, {
     "id": 23,
-    "category": "grabacion",
-    "name": "Nutmeg - Ground",
+    "category": "percusion",
+    "name": "Bongos Parquer Custom Madera Natural Aro Negro 7 Y 8.5 C",
     "stock": 72,
-    "price": 182,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
+    "price": 155,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_855240-MLU73567916934_122023-F.webp",
+    "description": "Sumérgete en el mundo de la música con los Bongos Parquer Custom. Fabricados con madera natural de alta calidad, estos bongos ofrecen un sonido auténtico y resonante que te permitirá explorar y expresar tu creatividad musical. El aro negro añade un toque de elegancia y sofisticación, haciendo de estos bongos una adición estilizada a cualquier conjunto musical."
   }, {
     "id": 24,
-    "category": "viento",
-    "name": "Wine - Semi Dry Riesling Vineland",
+    "category": "percusion",
+    "name": "Bateria Niños Parquer Star 5 Cuerpos Banqueta Plateada",
     "stock": 32,
-    "price": 141,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui."
+    "price": 422,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_660207-MLU73465077976_122023-F.webp",
+    "description": "BATERIA STAR 5 CUERPOS. NIVEL INICIAL COLOR PLATEADO INCLUYE FIERROS, PEDAL Y BANQUETA BOMBO: 16X11 CHANCHA 12X10 TOMS 10X6 Y 8X6 REDOBLANTE 10X5 PLATOS HIHAT 10' Y CRASH 12'. Ideal para niños que están comenzando a explorar el mundo de la música."
   }, {
     "id": 25,
-    "category": "cuerda",
-    "name": "Seedlings - Buckwheat, Organic",
+    "category": "accesorios",
+    "name": "Banqueta Para Baterista Shadow Pata Simple Regulable",
     "stock": 69,
-    "price": 351,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+    "price": 54,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_736028-MLU72878329076_112023-F.webp",
+    "description": "La banqueta para baterista Shadow Pata Simple Regulable es un producto de alta calidad de la marca Parquer, reconocida por su excelente fabricación de instrumentos y accesorios musicales. Este modelo 94002 está construido en fierro reforzado, garantizando su durabilidad y resistencia. Con un diámetro de 28 cm, ofrece un asiento redondo acolchonado que proporciona comodidad durante largas sesiones de práctica o presentaciones. Cuenta con tres patas simples dobles, lo que le brinda estabilidad y soporte. Además, es plegable, lo que facilita su transporte y almacenamiento. Una de las características más destacables de esta banqueta es su altura ajustable. Puede regularse entre 50 cm a 63 cm, permitiendo adaptarse a las necesidades de cada baterista. Sin embargo, puede alcanzar una altura máxima de 64 cm. A pesar de no contar con respaldo, su diseño ergonómico asegura una postura correcta al tocar. Esta banqueta es una opción ideal para cualquier baterista que busque comodidad y durabilidad en su equipo."
   }, {
     "id": 26,
-    "category": "percusion",
-    "name": "Gelatine Powder",
+    "category": "accesorios",
+    "name": "Pie Soporte Tipo Jirafa De Platillo Para Bateria Parquer Color Plateado",
     "stock": 40,
-    "price": 220,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+    "price": 68,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_975750-MLU73181426976_122023-F.webp",
+    "description": "Este soporte tipo jirafa para platillo de batería de la marca Parquer, modelo 91003B, es un accesorio imprescindible para cualquier baterista. Con su diseño cromado y color plateado, este soporte no solo es funcional, sino también estéticamente atractivo. Cuenta con dos tramos y dos niveles de ajuste de altura, lo que permite una personalización completa para adaptarse a las necesidades de cada músico. La altura máxima es de 1.53 metros y la mínima de 84.4 cm, lo que proporciona una amplia gama de opciones. Este soporte de la línea Star está construido con acero de alta calidad para garantizar su durabilidad y resistencia. Además, tiene tres patas dobles con base antideslizante para garantizar la estabilidad durante el uso. Este soporte viene con una serie de accesorios incluidos, como una felpa, una goma protectora y una mariposa. No requiere ensamblado, por lo que es fácil de usar desde el momento en que se saca de la caja. Con su estructura reforzada, este soporte tipo jirafa es una inversión valiosa para cualquier baterista."
   }, {
     "id": 27,
     "category": "accesorios",
-    "name": "Tomatoes",
+    "name": "Banqueta Piano Parquer Altura Regulable Plegable Y Acolchada Color Negro",
     "stock": 23,
-    "price": 387,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+    "price": 40,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_829817-MLU71495378019_092023-F.webp",
+    "description": "La banqueta Piano Parquer es el complemento perfecto para tu hogar u oficina. Su diseño elegante en color negro y su estructura de metal le brindan durabilidad y resistencia. Además, su altura regulable te permite adaptarla a tus necesidades y preferencias."
   }, {
     "id": 28,
-    "category": "viento",
-    "name": "Plasticforkblack",
+    "category": "accesorios",
+    "name": "Soporte De Teclado X Simple Tijera Cod.uk002",
     "stock": 7,
-    "price": 230,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "price": 21,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_719326-MLA47160337144_082021-F.webp",
+    "description": ""
   }, {
     "id": 29,
     "category": "accesorios",
-    "name": "Wine - Gewurztraminer Pierre",
+    "name": "Funda Para Teclado / Organo Parquer Acolchada 5 Octavas 5/8",
     "stock": 99,
-    "price": 48,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+    "price": 31,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_611847-MLA45254885938_032021-F.webp",
+    "description": ""
   }, {
     "id": 30,
-    "category": "percusion",
-    "name": "Bay Leaf Fresh",
+    "category": "accesorios",
+    "name": "Combo Funda Soporte Banqueta Parquer Para Piano Electrico",
     "stock": 68,
-    "price": 56,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+    "price": 113,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_842136-MLA49106220783_022022-F.webp",
+    "description": ""
   }, {
     "id": 31,
-    "category": "percusion",
-    "name": "Chocolate Bar - Coffee Crisp",
+    "category": "accesorios",
+    "name": "Cañas Para Saxo Alto Parquer Nro 2,5 Medianas X10 Pam",
     "stock": 86,
-    "price": 83,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+    "price": 11,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_810663-MLA31913068529_082019-F.webp",
+    "description": ""
   }, {
     "id": 32,
-    "category": "viento",
-    "name": "Bread - Sour Sticks With Onion",
+    "category": "accesorios",
+    "name": "Soporte Para Saxo Tenor Y Alto Marca Parquer Cod St-05",
     "stock": 53,
-    "price": 59,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum."
+    "price": 18,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_860479-MLU72033455626_102023-F.webp",
+    "description": "Este soporte es ideal para saxos tenor y alto, de la reconocida marca Parquer. Su código es ST-05."
   }, {
     "id": 33,
-    "category": "teclados",
-    "name": "Carbonated Water - Raspberry",
+    "category": "cuerda",
+    "name": "Cable Plug Plug De 3 Mts Libre De Oxigeno Hugel 199-810-037",
     "stock": 23,
-    "price": 58,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+    "price": 10,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_946551-MLU73861223264_012024-F.webp",
+    "description": "Este cable es ideal para conectar tus dispositivos de manera fácil y sencilla. Podrás transferir tu audio y video en pocos pasos."
   }, {
     "id": 34,
     "category": "cuerda",
-    "name": "Bagel - Everything",
+    "name": "Bagel - Everything aaaaaaaaaaaaaaaaaaa",
     "stock": 69,
     "price": 384,
     "img": "http://dummyimage.com/270x270.png/dddddd/000000",
