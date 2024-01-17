@@ -77,7 +77,7 @@
     "stock": 63,
     "price": 442,
     "img": "https://http2.mlstatic.com/D_NQ_NP_733267-MLA72094791631_102023-F.webp",
-    "description": ""
+    "description": "Disfrutá con este acordeon que cuenta con 8 bajos y 22 teclas. Color negro. Viene con correa y funda incluida."
   }, {
     "id": 11,
     "category": "viento",
@@ -85,7 +85,7 @@
     "stock": 65,
     "price": 2600,
     "img": "https://http2.mlstatic.com/D_NQ_NP_821986-MLA32317042978_092019-F.webp",
-    "description": ""
+    "description": "Disfrutá de este corno frances doble alexander con campana desmontable de Parquer. Instrumento de viento. Color dorado."
   }, {
     "id": 12,
     "category": "viento",
@@ -93,7 +93,7 @@
     "stock": 47,
     "price": 2482,
     "img": "https://http2.mlstatic.com/D_NQ_NP_629527-MLA72018148845_092023-F.webp",
-    "description": ""
+    "description": "Disfrutá con este acordeon que cuenta con 72 bajos y 34 llaves. Color negro. Peso: 7500g y Dimensiones: 70 x 60 x 30 cm"
   }, {
     "id": 13,
     "category": "grabacion",
@@ -109,7 +109,7 @@
     "stock": 80,
     "price": 7,
     "img": "https://http2.mlstatic.com/D_NQ_NP_993957-MLA70435796062_072023-F.webp",
-    "description": ""
+    "description": "Panel acustico tipo caja de huevos con adhesivo. Color negro. Dimensiones: 50 x 50 x 5 cm"
   }, {
     "id": 15,
     "category": "grabacion",
@@ -125,7 +125,7 @@
     "stock": 39,
     "price": 700,
     "img": "https://http2.mlstatic.com/D_NQ_NP_743948-MLU69710419438_052023-F.webp",
-    "description": ""
+    "description": "88 Teclas pesadas tipo martillo (Hammer action) Polifonia: 64 voces. 8 HD sounds + 130 samples 1 Grupo de percusion. Potencia 14w + 14w. Peso 17Kg"
   }, {
     "id": 17,
     "category": "teclados",
@@ -157,7 +157,7 @@
     "stock": 40,
     "price": 817,
     "img": "https://http2.mlstatic.com/D_NQ_NP_888676-MLU72400616620_102023-F.webp",
-    "description": ""
+    "description": "Disfrutá con esta bateria electronica completa marca Soundking. Peso: 225000 g. Dimensiones: 96 x 71 x 30 cm"
   }, {
     "id": 21,
     "category": "percusion",
@@ -221,7 +221,7 @@
     "stock": 7,
     "price": 21,
     "img": "https://http2.mlstatic.com/D_NQ_NP_719326-MLA47160337144_082021-F.webp",
-    "description": ""
+    "description": "Soporte teclado con patas telescopicas en X con memoria de altura. Altura Ajustable 640-980mm. Medida de Brazos 28x330mm. Material Acero."
   }, {
     "id": 29,
     "category": "accesorios",
@@ -229,7 +229,7 @@
     "stock": 99,
     "price": 31,
     "img": "https://http2.mlstatic.com/D_NQ_NP_611847-MLA45254885938_032021-F.webp",
-    "description": ""
+    "description": "Funda acolchada para controlador o teclado de 5 octavas de 61 teclas. Dimensiones: 95 x 30 x 15 cm"
   }, {
     "id": 30,
     "category": "accesorios",
@@ -237,7 +237,7 @@
     "stock": 68,
     "price": 113,
     "img": "https://http2.mlstatic.com/D_NQ_NP_842136-MLA49106220783_022022-F.webp",
-    "description": ""
+    "description": "Adquiere este combo de accesorios. Trae una funda, un soporte y una banqueta Parquer para piano eléctrico."
   }, {
     "id": 31,
     "category": "accesorios",
@@ -245,7 +245,7 @@
     "stock": 86,
     "price": 11,
     "img": "https://http2.mlstatic.com/D_NQ_NP_810663-MLA31913068529_082019-F.webp",
-    "description": ""
+    "description": "Cañas para saxo alto Nro 2,5 medianas X10 Pam. Marca Parquer. Peso: 2000g Dimensiones: 40 x 6 x 6 cm"
   }, {
     "id": 32,
     "category": "accesorios",
@@ -265,137 +265,137 @@
   }, {
     "id": 34,
     "category": "cuerda",
-    "name": "Bagel - Everything aaaaaaaaaaaaaaaaaaa",
+    "name": "Afinador Cromatico Parquer Pantalla Color Pinza Guitarra",
     "stock": 69,
-    "price": 384,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst."
+    "price": 6,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_818401-MLU73781794316_012024-F.webp",
+    "description": "Afinador Cromático con Pantalla a Color, ideal para bajo, guitarra, violín, ukelele. Funciona con una batería CR2032."
   }, {
     "id": 35,
-    "category": "grabacion",
-    "name": "Yoplait - Strawbrasp Peac",
+    "category": "cuerda",
+    "name": "Guitarra criolla clásica Parquer GCCMC100SBEQ4",
     "stock": 37,
-    "price": 350,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+    "price": 248,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_734734-MLU73763864315_012024-F.webp",
+    "description": "Disfrutá con esta guitarra Parquer de la conexión con la música. Está diseñada para aficionados y profesionales. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. La tapa de abeto genera un tono brillante y claro, incluso en los registros más agudos."
   }, {
     "id": 36,
-    "category": "viento",
-    "name": "Pepper - Chillies, Crushed",
+    "category": "cuerda",
+    "name": "Cello Violoncello Segovia 3/4 Estudio Madera Tilo Funda Arco",
     "stock": 41,
-    "price": 275,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+    "price": 442,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_779904-MLU73351403280_122023-F.webp",
+    "description": "Cello Violoncello Segovia 3/4 Estudio Madera Tilo Funda Arco' es un instrumento de alta calidad, perfecto para estudiantes y músicos en desarrollo. Este violoncello de tamaño 3/4 está hecho de madera de tilo, conocida por su durabilidad y su capacidad para producir un sonido cálido y resonante."
   }, {
     "id": 37,
-    "category": "accesorios",
-    "name": "Triple Sec - Mcguinness",
+    "category": "cuerda",
+    "name": "Guitarra eléctrica Parquer Custom JK semi hollow de caoba 2019 roja multicapa",
     "stock": 10,
-    "price": 200,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+    "price": 470,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_614476-MLA45342782595_032021-F.webp",
+    "description": "Disfrutá con esta guitarra Parquer Custom de la conexión con la música. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Explorá, amplificá tu creatividad y desarrollá tu pasión. Su madera de caoba la hace un producto versátil y popular. El tono viene marcado por la calidez y equilibrio, con agudos suaves y cargados matices armónicos."
   }, {
     "id": 38,
-    "category": "accesorios",
-    "name": "Tomatoes Tear Drop Yellow",
+    "category": "cuerda",
+    "name": "Bajo Electrico Parquer Modelo Magic 4 Cuerdas Activo Cuota",
     "stock": 27,
-    "price": 287,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh."
+    "price": 667,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_957473-MLU54975760991_042023-F.webp",
+    "description": "Bajo Modelo Magic 4 Cuerdas. Contruccion Atornillada. Escala 864mm. Cuerpo Caoba y Palisandro. Mango de Arce. Trastera Palisandro. Control 2V/3T. Peso: 5000g Dimensiones: 70 x 40 x 40 cm"
   }, {
     "id": 39,
-    "category": "grabacion",
-    "name": "Wasabi Powder",
+    "category": "cuerda",
+    "name": "Encordado De Contrabajo Parquer Linea Custom",
     "stock": 86,
-    "price": 169,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+    "price": 121,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_781746-MLA31913042939_082019-F.webp",
+    "description": "Encordado de contrabajo marca Parquer linea custom. Modelo Bass+. Unidades por envase: 4"
   }, {
     "id": 40,
-    "category": "accesorios",
-    "name": "Whmis Spray Bottle Graduated",
+    "category": "grabacion",
+    "name": "Consola Potenciada Mixer 8 Canales Stereo 150w",
     "stock": 84,
-    "price": 147,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+    "price": 491,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_800278-MLA71548965611_092023-F.webp",
+    "description": "Mezclador de 8 canales. Bluetooth incorporado. Reproductor de MP3 incorporado para reproducir y grabar. Conecte el USB a la PC para reproducir/grabar. Dos salidas AUX, ESTEREO de dos canales. Chasis de acero resistente y panel exquisito en dos lados. Amplificador de potencia incorporado, con completo, Potencia fuerte MULTIVOLTAGE 100-240V de uso mundial. Potencia RMS 150W / 99 DSP"
   }, {
     "id": 41,
-    "category": "viento",
-    "name": "Beans - Turtle, Black, Dry",
+    "category": "percusion",
+    "name": "Set Platillos Platos Mudos Parquer Hihat Crash X2 Ride",
     "stock": 11,
-    "price": 254,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+    "price": 251,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_709404-MLU71494889947_092023-F.webp",
+    "description": "El Set de Platillos Platos Mudos Parquer Hihat Crash X2 Ride es perfecto para los amantes de la música que buscan un sonido de alta calidad. Fabricados con una aleación de latón, estos platillos ofrecen un sonido brillante y definido que se adapta a cualquier estilo musical. Su peso liviano los hace fáciles de transportar y su acabado B20 garantiza durabilidad y resistencia. Además, su diseño mudo los hace ideales para practicar en casa sin molestar a los demás. Este set incluye dos platillos, perfectos para complementar tu batería y agregar variedad a tus interpretaciones."
   }, {
     "id": 42,
-    "category": "teclados",
-    "name": "Glycerine",
-    "stock": 1,
-    "price": 84,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat."
+    "category": "percusion",
+    "name": "Cajon Flamenco Parquer + Funda",
+    "stock": 7,
+    "price": 170,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_772735-MLA72484500323_102023-F.webp",
+    "description": "Cajon Flamenco a Cuerdas Tipo Mario Cortes - Material Enchapado en Madera. Tapa en Madera Beteada. Medidas 3Cmx29Cmx5Cm Incluye Funda. Peso: 4500g Dimensiones: 70 x 60 x 30 cm"
   }, {
     "id": 43,
-    "category": "teclados",
-    "name": "Chilli Paste, Hot Sambal Oelek",
+    "category": "percusion",
+    "name": "Bongo Madera Parquer Rumba 7 Y 8.5 Parche Piel Metal Cuota",
     "stock": 39,
-    "price": 40,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum."
+    "price": 243,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_884902-MLA31913057407_082019-F.webp",
+    "description": "Bongo 7 y 8.5 - Parche de Piel - Medidas: 7″ y 8.5″ - Herrajes de Metal Plateado con Torres de 7mm - Terminación: Madera Natural. Peso: 5000g Dimensiones: 70 x 60 x 30 cm"
   }, {
     "id": 44,
-    "category": "grabacion",
-    "name": "Veal - Kidney",
+    "category": "viento",
+    "name": "Kazoo Metal Aluminio Parquer Color Plateado",
     "stock": 12,
-    "price": 153,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat."
+    "price": 10,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_804680-MLA44063511690_112020-F.webp",
+    "description": "Disfrutá de este kazoo de metal y aluminio marca Parquer que te servirá para mejorar con tu música. Color Plateado"
   }, {
     "id": 45,
     "category": "viento",
-    "name": "Gatorade - Orange",
+    "name": "Limpieza Para Trombón Parquer",
     "stock": 26,
-    "price": 327,
-    "img": "http://dummyimage.com/270x270.png/cc0000/ffffff",
-    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+    "price": 18,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_718291-MLA31913057362_082019-F.webp",
+    "description": "Utiliza este limpia trombón de la marca Parquer para mantener tu instrumento como nuevo. Dimensiones: 50 x 15 x 70 cm"
   }, {
     "id": 46,
-    "category": "percusion",
-    "name": "Breadfruit",
+    "category": "viento",
+    "name": "Set De Boquillas Adaptables Parquer Para Trompeta Ptrboqset",
     "stock": 4,
-    "price": 237,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+    "price": 122,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_748940-MLA31913075875_082019-F.webp",
+    "description": "Boquilla Convertible a 3C, 2C, 3B y 2B - Similar O Equivalente a Bach 7C, 5C, 3C y 1 1/2C. Se Adaptan Por Medio de 2 Aros y 4 Distintas Copas Según La Medida Buscada."
   }, {
     "id": 47,
-    "category": "grabacion",
-    "name": "Pastry - Apple Large",
+    "category": "cuerda",
+    "name": "Banjo Profesional Parquer Master 5 Cuerdas Parche Remo",
     "stock": 4,
-    "price": 319,
-    "img": "http://dummyimage.com/270x270.png/5fa2dd/ffffff",
-    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+    "price": 384,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_795925-MLU73598861952_122023-F.webp",
+    "description": "El Banjo Profesional Parquer Master 5 Cuerdas Parche Remo es un instrumento de alta calidad, diseñado para músicos profesionales y entusiastas de la música. Este banjo cuenta con 5 cuerdas, proporcionando un rango de tonos amplio y versátil. El parche Remo añade un tono auténtico y resonante, ideal para una variedad de estilos musicales."
   }, {
     "id": 48,
-    "category": "cuerda",
-    "name": "Plate Pie Foil",
-    "stock": 77,
-    "price": 61,
-    "img": "http://dummyimage.com/270x270.png/ff4444/ffffff",
-    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+    "category": "viento",
+    "name": "Trompeta Pocket Parquer Con Estuche Rigido Ptpcn",
+    "stock": 18,
+    "price": 466,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_748880-MLA31913070590_082019-F.webp",
+    "description": "Es Una Trompeta Piccolo Bb Campana 11mm Bore: 11.6mm Laquer 3 Pistones"
   }, {
     "id": 49,
-    "category": "grabacion",
-    "name": "Egg - Salad Premix",
+    "category": "teclados",
+    "name": "Controlador Midi Parquer 49 Teclas",
     "stock": 97,
-    "price": 134,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Fusce consequat. Nulla nisl. Nunc nisl."
+    "price": 168,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_773210-MLA43990616486_112020-F.webp",
+    "description": "Teclado Maestro Midi Profesional con USB Incorporado. 49 Keys con Toque Inicial. "
   }, {
     "id": 50,
-    "category": "viento",
-    "name": "Snapple Lemon Tea",
+    "category": "teclados",
+    "name": "Teclado Parquer 61 Teclas Sensitivo Blanco K180wh Cuota",
     "stock": 89,
-    "price": 150,
-    "img": "http://dummyimage.com/270x270.png/dddddd/000000",
-    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+    "price": 220,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_896731-MLA73935386990_012024-F.webp",
+    "description": "Con sus 61 teclas, podrás tocar una amplia variedad de obras y sumergirte en el mundo del intérprete musical. Ideal para niveles intermedios que quieren superarse y seguir el camino de los grandes músicos. Teclado Multifuncional."
   }]

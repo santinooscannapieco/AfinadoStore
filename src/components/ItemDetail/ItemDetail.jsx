@@ -18,16 +18,15 @@ const ItemDetail = ( {item} ) => {
         }
 
         addToCart( itemToCart )
-        /* setCantidad(0) */
     }
 
     return(
         <div className="container mx-auto py-20">
             <h3 className="text-4xl font-semibold text-stone-900">{item.name}</h3>
             <hr className='my-6 border-black' />
-            <div className="flex gap-28 mt-8 justify-center">
-                <div className="w-72 h-72 bg-slate-300">
-                    <img className="m-auto h-72" src={item.img} alt="imagen" />
+            <div className="flex gap-28 my-8 justify-center">
+                <div className="w-72 h-72 flex items-center">
+                    <img className="m-auto max-h-72" src={item.img} alt="imagen" />
                 </div>
 
                 <div className="max-w-2xl">
