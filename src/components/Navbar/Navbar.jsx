@@ -1,6 +1,8 @@
 import CartWidget from "./CartWidget"
 import logo from '../../assets/afinado-store.svg'
 import { Link, NavLink } from "react-router-dom"
+import { useContext } from "react"
+import { UserContext } from "../../context/UserContext"
 
 export const links = [
     {
@@ -37,7 +39,8 @@ export const links = [
 ]
 
 const Navbar = () => {
-    
+    const { user, logout } = useContext(UserContext)
+
     return (
         <header className="bg-stone-300">
             <div className="container m-auto py-5 flex justify-between items-center">
@@ -65,6 +68,13 @@ const Navbar = () => {
 
                 <CartWidget />
             </div>
+
+            {user.logged && <>
+                <p>{user.email}</p>
+                <button onClick={logout} className="mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none">Cerrar sesión</button>
+            </>
+
+            }
         </header>
     )
 }
