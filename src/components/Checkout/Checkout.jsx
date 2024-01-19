@@ -1,7 +1,7 @@
 import { useContext, useState } from "react"
 import { CartContext } from "../../context/CartContext"
 import { db } from "../../firebase/config"
-import { collection, doc, getDoc,  updateDoc, addDoc } from "firebase/firestore"
+import { collection, doc, getDoc,  updateDoc, addDoc, writeBatch, query, where, documentId, getDocs } from "firebase/firestore"
 import Swal from "sweetalert2"
 
 
@@ -23,7 +23,7 @@ const Checkout = () => {
         })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
 
         const orden = {
@@ -38,25 +38,42 @@ const Checkout = () => {
             fecha: new Date()
         }
         
+        const batch = writeBatch(db)
         const ordersRef = collection(db, 'orders')
+        const productsRef = collection(db, 'productos')
+        const itemQuery = query(productsRef, where( documentId(), 'in', cart.map(prod => prod.id) ))
 
-        /* cart.forEach(item => {
-            const docRef = doc(db,'productos', item.id)
-            getDoc(docRef)
-                .then(doc => {
-                    updateDoc(docRef, {
-                        stock: doc.data().stock - item.cantidad
-                    })
+        const querySnapshot = await getDocs(itemQuery)
+        
+        const outOfStock = []
+
+        querySnapshot.docs.forEach(doc => {
+            const item = cart.find(prod => prod.id === doc.id)
+            const stock = doc.data().stock
+
+            if (stock >= item.cantidad) {
+                batch.update(doc.ref, {
+                    stock: stock - item.cantidad
                 })
-        }) */
+            } else {
+                outOfStock.push(item)
+            }
+        })
 
-        addDoc(ordersRef, orden)
-            .then(doc => {
-                setOrderId(doc.id)
-                clearCart()
+        if (outOfStock.length === 0) {
+            batch.commit()
+                .then(() => {
+                    addDoc(ordersRef, orden)
+                        .then(doc => {
+                            setOrderId(doc.id)
+                            clearCart()
 
-                Swal.fire("Gracias por tu compra")
-            })
+                            Swal.fire("Gracias por tu compra")
+                        })
+                })
+        } else {
+            Swal.fire("Hay items sin stock")
+        }
     }
 
     if (orderId) {

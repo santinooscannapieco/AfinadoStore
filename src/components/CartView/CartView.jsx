@@ -2,10 +2,11 @@ import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import EmptyCart from "./EmptyCart"
 import { Link } from "react-router-dom"
+import { FaTrashAlt } from "react-icons/fa";
 
 
 const CartView = () => {
-    const { cart, totalCart, clearCart } = useContext(CartContext)
+    const { cart, totalCart, clearCart, removeItem } = useContext(CartContext)
 
     if(cart.length === 0) return <EmptyCart />
 
@@ -17,7 +18,7 @@ const CartView = () => {
             <ul>
                 {
                     cart.map((item) => (
-                        <li key={item.id} className="flex gap-3 my-4">
+                        <li key={item.id} className="flex gap-3 py-4">
                             <div className="w-32 flex items-center">
                                 <img src={item.img} alt="Cart img" className="m-auto max-h-32" />
                             </div>
@@ -25,6 +26,10 @@ const CartView = () => {
                                 <h3 className="text-2xl">{item.name}</h3>
                                 <p className="text-2xl font-bold">$ {item.price * item.cantidad}</p>
                                 <p className="text-xl">Cantidad: {item.cantidad}</p>
+
+                                <button className="text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" onClick={() => removeItem(item.id)}>
+                                    <FaTrashAlt />
+                                </button>
                             </div>
                         </li>
                     ))

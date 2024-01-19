@@ -1,5 +1,6 @@
 import { useContext, useState } from "react"
 import { UserContext } from "../../context/UserContext"
+import { FaGoogle } from "react-icons/fa"
 
 
 
@@ -57,12 +58,15 @@ const LoginScreen = () => {
                     Registrar
                 </button>
                 <br />
-                <button 
-                    onClick={googleLogin} 
-                    className="mt-4 text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" type="submit"
-                >
-                    Iniciar sesión con google
-                </button>
+                <div className="flex flex-col items-center mt-6">
+                    <h3>Iniciar sesión con google:</h3>
+                    <button 
+                        onClick={googleLogin} 
+                        className="text-gray-50 bg-stone-700 hover:bg-stone-500 border-none" type="submit"
+                    >
+                        <FaGoogle className="text-4xl" />
+                    </button>
+                </div>
             </div>
         </div>
     )
